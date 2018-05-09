@@ -1,10 +1,13 @@
 import socket
 import re
 import sys
+from colors import *
 
+sys.stdout.write('blue')
 def connection(ip,user,passw):
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-
+    
+    sys.stdout.write('red')
     print('Trying' + ip + ':' + user + ':' + passw)
     sock.connect(('192.168.1.0',80))
 
