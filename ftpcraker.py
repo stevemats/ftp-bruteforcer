@@ -25,8 +25,8 @@ def connection(ip,user,passw):
     return data
 
 user = 'User1'
-# in the user factor it would be awesome if you've done some recon and know the username else default
-# or modify<<<
+# in the username it would be awesome if you've done some recon and know the username else default
+# also feel free to modify the username<<<
 password = ['pass1', 'pass2', 'pass3', 'admin','adm','1234','']
 #here this are the passwords of trial to be tried
 for password in password:
